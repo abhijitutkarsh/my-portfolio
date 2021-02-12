@@ -12,10 +12,10 @@ function App() {
       params={{
         particles:{
           number:{
-            value:30,
+            value:20,
             density:{
               enable: true,
-              value_area:900
+              value_area:400
             }
           },
           shape: {
@@ -28,7 +28,7 @@ function App() {
         }
       }}
     />
-    <Navbar/>
+    {/* <Navbar/> */}
     <Header/>
     </>
     );
